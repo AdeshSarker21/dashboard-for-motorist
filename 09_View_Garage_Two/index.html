@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Garage</title>
+    <!-- ============================fontawesome cdn============================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ============================Font-family============================ -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- ============================Bootstrap link============================ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ============================Sidebar StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <!-- ============================Main StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/viewGarages.css">
+    <!-- ============================Pup Up StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/pup-up.css">
+    <!-- top header navbar css  -->
+    <link rel="stylesheet" href="assets/css/topnavBar.css">
+    <!-- ============================Responsive StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body style="background-color: #FAFAFA;">
+    <!--===========================Start Top Header===================================-->
+    <header class="mainTopHeader">
+        <div class="container-fluid">
+            <!-- main topbar start  -->
+            <div class="topBarHeader">
+                <div class="headerItem">
+                    <div class="headerIcons">
+                        <img src="assets/images/TopHeaderIcon/search.svg" alt="">
+                        <img id="notificationIcon" src="assets/images/TopHeaderIcon/notifications.svg" alt="">
+                        <img id="tasksIcon" src="assets/images/TopHeaderIcon/emoji_flags.svg" alt="">
+                    </div>
+                    <div class="headerUser" id="userId">
+                        <img src="assets/images/TopHeaderIcon/user.png" alt="">
+                        <span>Jhon Doe <i class="fas fa-caret-down"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- main topbar end  -->
+        </div>
+        <!--Header Notification Area Start-->
+        <div class="mainNotificationArea">
+            <!--Heading-->
+            <div class="notificationHeading">
+                <h1 class="notificationHeadingText">Notifications</h1>
+            </div>
+            <!--/// End Heading-->
+            <!--Notification-->
+            <div class="mainNotification">
+                <!--Copy item-->
+                <div class="notificatinItem">
+                    <!--icon-->
+                    <div class="notificationIconArea">
+                        <img class="notificationIcon" src="assets/images/NotificationsIcon/01.svg" alt="icon">
+                    </div>
+                    <!--/// End icon-->
+                    <!--Notification Text-->
+                    <a href="#" class="notificationTextArea">
+                        <p class="notificationShowText">New Garage dan39039 appear</p>
+                        <span class="notificationTextTime">14 mins ago</span>
+                    </a>
+                    <!--/// End Notification Text-->
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="notificatinItem">
+                    <!--icon-->
+                    <div class="notificationIconArea">
+                        <img class="notificationIcon" src="assets/images/NotificationsIcon/01.svg" alt="icon">
+                    </div>
+                    <!--/// End icon-->
+                    <!--Notification Text-->
+                    <a href="#" class="notificationTextArea">
+                        <p class="notificationShowText">New Garage dan39039 appear</p>
+                        <span class="notificationTextTime">14 mins ago</span>
+                    </a>
+                    <!--/// End Notification Text-->
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="notificatinItem">
+                    <!--icon-->
+                    <div class="notificationIconArea">
+                        <img class="notificationIcon" src="assets/images/NotificationsIcon/02.svg" alt="icon">
+                    </div>
+                    <!--/// End icon-->
+                    <!--Notification Text-->
+                    <a href="#" class="notificationTextArea">
+                        <p class="notificationShowText">New Garage dan39039 appear</p>
+                        <span class="notificationTextTime">14 mins ago</span>
+                    </a>
+                    <!--/// End Notification Text-->
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="notificatinItem">
+                    <!--icon-->
+                    <div class="notificationIconArea">
+                        <img class="notificationIcon" src="assets/images/NotificationsIcon/03.svg" alt="icon">
+                    </div>
+                    <!--/// End icon-->
+                    <!--Notification Text-->
+                    <a href="#" class="notificationTextArea">
+                        <p class="notificationShowText">New Garage dan39039 appear</p>
+                        <span class="notificationTextTime">14 mins ago</span>
+                    </a>
+                    <!--/// End Notification Text-->
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="notificatinItem">
+                    <!--icon-->
+                    <div class="notificationIconArea">
+                        <img class="notificationIcon" src="assets/images/NotificationsIcon/04.svg" alt="icon">
+                    </div>
+                    <!--/// End icon-->
+                    <!--Notification Text-->
+                    <a href="#" class="notificationTextArea">
+                        <p class="notificationShowText">New Garage dan39039 appear</p>
+                        <span class="notificationTextTime">14 mins ago</span>
+                    </a>
+                    <!--/// End Notification Text-->
+                </div>
+                <!--/// End Copy item-->
+            </div>
+            <!--/// End Notification-->
+        </div>
+        <!--/// End Header Notification Area Start-->
+        <!--Tasks Area Start-->
+        <div class="mainTaskArea">
+            <!--Heading-->
+            <div class="notificationHeading">
+                <h1 class="notificationHeadingText">Tasks</h1>
+            </div>
+            <!--/// End Heading-->
+            <!--Tasks-->
+            <div class="mainTasks">
+                <!--Copy item-->
+                <div class="tasksItem">
+                    <div class="tasksInfo">
+                        <p class="tasksName">Footer Display issue</p>
+                        <p class="tasksPercent">34%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width:34%; background: #E91E63;">
+                        </div>
+                    </div>
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="tasksItem">
+                    <div class="tasksInfo">
+                        <p class="tasksName">Make new buttons</p>
+                        <p class="tasksPercent">45%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width:45%; background:  #66B3FF;">
+                        </div>
+                    </div>
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="tasksItem">
+                    <div class="tasksInfo">
+                        <p class="tasksName">Create new dashboard</p>
+                        <p class="tasksPercent">54%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width:54%; background:  #009688;">
+                        </div>
+                    </div>
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="tasksItem">
+                    <div class="tasksInfo">
+                        <p class="tasksName">Solve Transition issue</p>
+                        <p class="tasksPercent">65%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width:65%; background: #FFA54D;;">
+                        </div>
+                    </div>
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="tasksItem">
+                    <div class="tasksInfo">
+                        <p class="tasksName">Answer GitHub questions</p>
+                        <p class="tasksPercent">92%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="bar" style="width:92%; background: #7B12FF;;">
+                        </div>
+                    </div>
+                </div>
+                <!--/// End Copy item-->
+            </div>
+            <!--/// End Tasks-->
+        </div>
+        <!--/// End Tasks Area Start-->
+        <!--Start Profile Area-->
+        <div class="startProfileArea">
+            <ul class="pupUpProfileUl">
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Edit Profile</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Manage Account</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Settings</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Help & Support</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+        <!--/// End Profile Area-->
+    </header>
+    <!--===========================End Top Header===================================-->
+    <!--===========================Start Side Bar===================================-->
+    <div class="sidebars">
+        <input type="checkbox" id="check" />
+        <label for="check">
+            <i class="fas fa-bars menu_bar" id="bars"></i>
+            <i class="fa-solid fa-arrow-right-from-bracket close_bar" id="close" onclick="myFunctionTwo()"></i>
+        </label>
+        <div class="sidebar" style="background-color: #fff;">
+            <!--Side Bar Logo Area-->
+            <div class="sidebarLogoArea">
+                <div class="userImageArea">
+                    <img class="userImage" src="assets/images/userImage.png" alt="User Profile">
+                </div>
+                <div class="userName">
+                    <h4 class="userFullName">John_Snow</h4>
+                    <a class="userEmail" href="mailto:john@gmail.com">john@gmail.com</a>
+                </div>
+            </div>
+            <!--/// End Side Bar Logo Area-->
+            <ul class="sidebar_ul">
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/01.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/01.svg" alt="icon">
+                        <p class="navName">All Graphs</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/02.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/02.svg" alt="icon">
+                        <p class="navName">Complains</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/03.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/03.svg" alt="icon">
+                        <p class="navName">Valued Feedback</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/04.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/04.svg" alt="icon">
+                        <p class="navName">Managers</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/05.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/05.svg" alt="icon">
+                        <p class="navName">Mails</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/06.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/06.svg" alt="icon">
+                        <p class="navName">Forms</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink activeNav" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/07.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/07.svg" alt="icon">
+                        <p class="navName">Garages</p>
+                    </a>
+                </li>
+                <li class="listItem" style="margin-bottom: 50px;">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/08.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/08.svg" alt="icon">
+                        <p class="navName">Log out</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--===========================Start Side Bar===================================-->
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Start Here Main Body-=-=-=-=-=-=-=-=-=-=-=-=-=-=--->
+    <div class="main_body" id="myDIV">
+        <!--View Garage heading Area-->
+        <div class="viewGarageHeadingArea">
+            <h1 class="viewGarageHeadingText">View Garage</h1>
+            <p class="viewGarageHeadingSlogan">View your garage and avaialbe Slots in your grage</p>
+        </div>
+        <!--/// End View Garage heading Area-->
+        <!--Garage Details Area-->
+        <div class="mainGarageDetailsArea">
+            <div class="flexBox">
+                <!--Copy Item-->
+                <div class="garageItem">
+                    <a class="garageArrowLink" href="#">
+                        <img class="arrowIcon" src="assets/images/BodyIcon/bi_arrow-down-circle-fill.svg" alt="icon">
+                    </a>
+                    <p class="levelName">Basement Level 1</p>
+                </div>
+                <!--/// End Copy Item-->
+                <!--Copy Item-->
+                <div class="garageItem">
+                    <a class="garageArrowLink" href="#">
+                        <img class="arrowIcon" src="assets/images/BodyIcon/bi_arrow-down-circle-fill.svg" alt="icon">
+                    </a>
+                    <p class="levelName">Basement Level 2</p>
+                </div>
+                <!--/// End Copy Item-->
+                <!--Copy Item-->
+                <div class="garageItem">
+                    <a class="garageArrowLink" href="#">
+                        <img class="arrowIcon" src="assets/images/BodyIcon/bi_arrow-down-circle-fill.svg" alt="icon">
+                    </a>
+                    <p class="levelName">Floor 3</p>
+                </div>
+                <!--/// End Copy Item-->
+                <!--Copy Item-->
+                <div class="garageItem">
+                    <a class="garageArrowLink" href="#">
+                        <img class="arrowIcon" src="assets/images/BodyIcon/bi_arrow-down-circle-fill.svg" alt="icon">
+                    </a>
+                    <p class="levelName">Floor Section 1</p>
+                </div>
+                <!--/// End Copy Item-->
+                <!--Copy Item-->
+                <div class="garageItem">
+                    <a class="garageArrowLink" href="#">
+                        <img class="arrowIcon" src="assets/images/BodyIcon/bi_arrow-down-circle-fill.svg" alt="icon">
+                    </a>
+                    <p class="levelName">Top Level</p>
+                </div>
+                <!--/// End Copy Item-->
+                <!--Copy Item-->
+                <div class="garageItem">
+                    <a class="garageArrowLink" href="#">
+                        <img class="arrowIcon" src="assets/images/BodyIcon/bi_arrow-down-circle-fill.svg" alt="icon">
+                    </a>
+                    <p class="levelName">Floor 2</p>
+                </div>
+                <!--/// End Copy Item-->
+            </div>
+        </div>
+        <!--/// End Garage Details Area-->
+        <!--Garage Accodion Area-->
+        <div class="mainGarageAccodionArea">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <img class="accordionIcon" src="assets/images/BodyIcon/gridicons_time.svg" alt="icon">
+                            <p class="accordionHeading">Business Hours</p>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <!--Accordion Body Details-->
+                            <div class="mainAccordionBodyArea">
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Sunday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <p class="closeButon">Closed</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Sunday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <button class="time" style="margin-right: 13px;">9:00AM</button>
+                                        <button class="time">5:00PM</button>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Monday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <button class="time" style="margin-right: 13px;">9:00AM</button>
+                                        <button class="time">5:00PM</button>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Tuesday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <button class="time" style="margin-right: 13px;">9:00AM</button>
+                                        <button class="time">5:00PM</button>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Wednesday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <button class="time" style="margin-right: 13px;">9:00AM</button>
+                                        <button class="time">5:00PM</button>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Thursday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <button class="time" style="margin-right: 13px;">9:00AM</button>
+                                        <button class="time">5:00PM</button>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Friday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <button class="time" style="margin-right: 13px;">9:00AM</button>
+                                        <button class="time">5:00PM</button>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                                <!--FlexBox Copy-->
+                                <div class="flexBoxThree">
+                                    <!--Day Name-->
+                                    <div class="dayNameArea">
+                                        <p class="dayName">Saturday</p>
+                                    </div>
+                                    <!--///End Day Name-->
+                                    <!--Day Name-->
+                                    <div class="timeArea">
+                                        <button class="time" style="margin-right: 13px;">9:00AM</button>
+                                        <button class="time">5:00PM</button>
+                                    </div>
+                                    <!--///End Day Name-->
+                                </div>
+                                <!--/// End FlexBox Copy-->
+                            </div>
+                            <!--///Edn Accordion Body Details-->
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <img class="accordionIcon" src="assets/images/BodyIcon/currency-dollar.svg" alt="icon">
+                            <p class="accordionHeading">Rates</p>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam animi maxime quod molestiae neque ducimus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--///End Garage Accodion Area-->
+    </div>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=End Here Main Body-=-=-=-=-=-=-=-=-=-=-=-=-=-=--->
+    <script>
+        var element = document.getElementById("myDIV");
+        document.getElementById("bars").addEventListener("click", () => {
+            element.classList.add("mystyle");
+            elementTwo.classList.remove("mystyleTwo");
+        });
+        var elementTwo = document.getElementById("myDIV");
+        document.getElementById("close").addEventListener("click", () => {
+            elementTwo.classList.add("mystyleTwo");
+            element.classList.remove("mystyle");
+        });
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#notificationIcon").click(function() {
+                $(".mainNotificationArea").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tasksIcon").click(function() {
+                $(".mainTaskArea").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#userId").click(function() {
+                $(".startProfileArea").toggle();
+            });
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .main_body {
+        margin-right: 60px;
+    }
+}
+
+@media all and (max-width:991px) {
+    .main_body {
+        margin-top: 0px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .garageItem {
+        flex-basis: 48%;
+    }
+}
+
+@media all and (max-width:577px) {
+    .viewGarageHeadingArea .viewGarageHeadingText {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+
+    .viewGarageHeadingArea .viewGarageHeadingSlogan {
+        font-size: 16px;
+    }
+
+    .mainGarageDetailsArea {
+        padding: 0px 0px;
+    }
+
+    .mainGarageAccodionArea {
+        padding: 0px 0px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .garageItem {
+        flex-basis: 98%;
+    }
+
+    .topHeader .topHeaderList {
+        margin-left: 10px;
+    }
+
+    .topHeader .topHeaderList .userButton {
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width:375px) {
+    .topHeader .topHeaderList .userButton .userName {
+        font-size: 15px;
+        padding-left: 7px;
+        padding-right: 5px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .topHeader .topHeaderList .userButton .userName {
+        display: none;
+    }
+
+    .topHeader .topHeaderList .userButton .topHeaderArrowIocn {
+        margin-left: 10px;
+    }
+}

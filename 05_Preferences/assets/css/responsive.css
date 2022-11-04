@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+}
+
+@media all and (max-width:991px) {}
+
+@media all and (max-width:767px) {
+   .flexBoxFour {
+	display: flex;
+	justify-content: unset;
+	align-items: unset;
+	margin-bottom: 0px;
+	flex-direction: column;
+}
+    .checkBoxGroup {
+	flex-basis: 100%;
+	
+	margin-bottom: 20px;
+}
+    .saveArea {
+	margin-top: 50px;
+}
+}
+
+@media all and (max-width:577px) {}
+
+@media all and (max-width:480px) {
+   
+}
+
+@media all and (max-width:359px) {
+
+}

@@ -1,0 +1,117 @@
+/*============
+font-family: 'Poppins', sans-serif;
+=============*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main_body {}
+/*======================Start Main Body Heading Part======================*/
+.mainBodyHeadingPart{
+    margin-top: 70px;
+}
+.mainBodyHeadingPart .mainBodyHeadingText{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 42px;
+color: #444444;
+}
+.mainBodyHeadingPart .mainBodyHeadingContain{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+color: #444444;
+    margin-bottom: 30px;
+}
+/*======================End Main Body Heading Part======================*/
+/*======================Start User Profile Area======================*/
+
+/*======================Start User All Information Area======================*/
+
+.mainCheckBoxArea{}
+.checkBoxForm{
+    margin-top: 30px;
+}
+.flexBoxFour{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 41px;
+}
+.checkBoxGroup{ 
+    flex-basis: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.checkBoxGroup .checkBoxInput{
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
+}
+.checkBoxGroup .checkBoxLabel{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #404040;
+}
+.saveArea{
+    margin-top: 200px;
+}
+.saveArea .saveButton{
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+    padding: 15px;
+    background: #49C0FF;
+border-radius: 6px;
+    width: 100%;
+    
+}
+/*======================End User All Information Area======================*/

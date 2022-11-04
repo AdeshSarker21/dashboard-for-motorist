@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1199px) and (min-width: 992px) {}
+
+@media all and (max-width:991px) {
+    .table .dataTableHead .dataTableHeadRow .dataTableHeadCol {
+        font-size: 16px;
+    }
+
+    .table .dataTableBody .dataTableBodyRow .dataTableBodyCol {
+        font-size: 15px;
+    }
+
+
+
+    .table {
+        width: 700px !important;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+    }
+}
+
+@media all and (max-width:767px) {}
+
+@media all and (max-width:577px) {
+    .table {
+        width: 772px !important;
+        margin-bottom: 1rem;
+        color: #212529;
+        vertical-align: top;
+    }
+
+    .searchKeywordForm .searchKeyword .searchKeywordInput {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:480px) {}
+
+@media all and (max-width:359px) {}
